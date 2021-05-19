@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="ec.edu.ups.practica.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/acercaFragment"
+        android:name="ec.edu.ups.practica.AcercaFragment"
+        android:label="fragment_acerca"
+        tools:layout="@layout/fragment_acerca" />
+    <fragment
+        android:id="@+id/sesionFragment"
+        android:name="ec.edu.ups.practica.SesionFragment"
+        android:label="fragment_sesion"
+        tools:layout="@layout/fragment_sesion" />
+</navigation>
